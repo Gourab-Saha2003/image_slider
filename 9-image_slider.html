@@ -1,44 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image Slider</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="slide-container">
+      <div class="slide">
+        <img src="/img/bg1.jpg" alt="" />
+        <div class="caption">Caption 1</div>
+      </div>
+      <div class="slide">
+        <img src="/img/bg2.jpg" alt="" />
+        <div class="caption">Caption 2</div>
+      </div>
+      <div class="slide">
+        <img src="/img/bg3.jpg" alt="" />
+        <div class="caption">Caption 3</div>
+      </div>
+      <div class="slide">
+        <img src="/img/bg4.jpg" alt="" />
+        <div class="caption">Caption 4</div>
+      </div>
+      <div class="slide">
+        <img src="/img/bg8.jpg" alt="" />
+        <div class="caption">Caption 5</div>
+      </div>
 
-        <div class="slide">
-            <img src="/img/bg1.jpg" alt="">
-            <div class="caption">Caption 1</div>
-        </div>
-        <div class="slide">
-            <img src="/img/bg2.jpg" alt="">
-            <div class="caption">Caption 2</div>
-        </div>
-        <div class="slide">
-            <img src="/img/bg3.jpg" alt="">
-            <div class="caption">Caption 3</div>
-        </div>
-        <div class="slide">
-            <img src="/img/bg4.jpg" alt="">
-            <div class="caption">Caption 4</div>
-        </div>
-        <div class="slide">
-            <img src="/img/bg8.jpg" alt="">
-            <div class="caption">Caption 5</div>
-        </div>
-
-        <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
-        <span class="arrow next" onclick="controller(1)">&#10095;</span>
-
+      <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+      <span class="arrow next" onclick="controller(1)">&#10095;</span>
     </div>
 
     <script src="/script.js"></script>
-</body>
-
+  </body>
 </html>
